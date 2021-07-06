@@ -4,7 +4,7 @@ This project demonstrates how `StrandHogg` task injection works.
 
 ### How it works
 
-- Change `R.string.target_package` value to the `target package` value.
+- Change `R.string.target_package` value to the `target package` value (app/src/main/res/values/strings.xml).
 - Install the POC and run it.
 - Run the `target package` and this POC will hijack the task.
 
