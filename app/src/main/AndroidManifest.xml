@@ -27,7 +27,8 @@
             android:name=".FakeLoginActivity"
             android:exported="true"
             android:allowTaskReparenting="true"
-            android:taskAffinity="@string/target_package" />
+            android:taskAffinity="@string/target_package" 
+            android:excludeFromRecents="true" />
 
     </application>
 
